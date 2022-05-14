@@ -1,1 +1,44 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: forestgreen;
+}
+.paloUp {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+  font-size: 5rem;
+}
+.paloDown {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  margin-top: -50px;
+  margin-left: 280px;
+  transform: rotate(180deg);
+  font-size: 5rem;
+}
+
+.numero {
+  position: absolute;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  top: 35%;
+  left: 35%;
+  font-size: 5rem;
+}
+
+.corazon {
+  color: red;
+}
+.rombo {
+  color: red;
+}
+.trebol {
+  color: black;
+}
+.espada {
+  color: black;
+}
