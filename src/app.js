@@ -69,7 +69,7 @@ window.onload = function cambiocarta() {
   button.style.position = "absolute";
   button.style.marginLeft = "48%";
   document.body.appendChild(button);
-  button.addEventListener("click", event => {
+  let barajaAutomatica = button.addEventListener("click", event => {
     location.reload();
   });
   //FIN Boton
